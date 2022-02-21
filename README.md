@@ -1,5 +1,5 @@
-##HTML para DAMmies
-###Tutorial básico para Diseño de Aplicaciones Multiplataforma
+## HTML para DAMmies
+### Tutorial básico para Diseño de Aplicaciones Multiplataforma
 ---
 
 ---
