@@ -3,6 +3,6 @@
 ---
 
 ---
-##Ricardo Ramírez
+## Ricardo Ramírez
 * Añadido el fichero *headings.html*.
 ---
