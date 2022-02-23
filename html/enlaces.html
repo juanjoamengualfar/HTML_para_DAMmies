@@ -13,6 +13,15 @@
             padding: 5px;
             width:max-content;
         }
+		
+		.ejemplo {
+            box-sizing: border-box;
+            border: 8px solid rgb(216, 215, 215);
+            border-radius: 5px;
+            padding: 5px;
+            width: max-content;
+        }
+=======
 
     </style>
 
@@ -25,7 +34,49 @@
     <p>Los enlaces en HTML son hipervínculos. Al clicar en un enlace, este te lleva a otro documento.</p>
     <div><p>Al mover el cursor sobre el enlace este se convierte en una pequeña mano. <img class="img-cursor" src="cursor.png" alt="cursor" width="50px" height="50px"/></p></div>
     <div class="nota"><p><b>Nota:</b> Un enlace no tiene por qué ser texto, puede ser una imagen o cualquier otro elemento de HTML!</p></div>
+
+</div>
+
+<div>
+    <h2>Sintaxis</h2>
+    <p>En HTML la etiqueta para un hipervínculo se define con &lt;a&gt;. Tiene la siguiente sintaxis:</p>
+    <div class="ejemplo">
+        <p>&lt;a href="url"&gt;texto del hipervínculo&lt;/a&gt;</p>
+    </div>
+    <p>La parte más importante del elemento &lt;a&gt; es el atributo href pues indica el destino del hipervínculo. </p>
+    <p>El <em>texto del hipervínculo</em> es la parte que será visible para el lector.</p>
+    <p>Clicar en el texto mandará al lector a la dirección URL especificada. El siguiente ejemplo es un hipervínculo a la direccion edib.com</p>
+    <div class="ejemplo">
+        <p>&lt;a href="https://www.edib.com/"&gt;Visita Edib&lt;/a&gt;</p>
+    </div>
+    <p>Por defecto, los hipervínculos apareceran de esta forma en todos los navegadores:</p>
+    <ul>
+        <li>Un hipervínculo no visitado estará subrayado y de color azul.</li>
+        <li>Un hipervínculo visitado estará subrayado y de color morado.</li>
+        <li>Un hipervínculo activo estará subrayado y de color rojo.</li>
+    </ul>
+    <div class="nota">
+        <p><b>Consejo:</b> Los hipervínculos pueden tener estilos de CSS para tener otra apariencia.</p>
+    </div>
+</div>
+
+<div>
+    <h2>El atributo <em>target</em></h2>
+    <p>Por defecto, la página a la que se direcciona se abrirá en la misma ventana/pestaña que se esté utilizando. Para cambiar esto se debe especificar otro <em>target</em> para el vínculo.</p>
+    <p>Puede tener uno de estos diferentes valores:</p>
+    <ul>
+        <li>_self - Por defecto. Abre el documento en la misma ventana o pestaña.</li>
+        <li>_blank - Abre el documento en otra ventana o pestaña.</li>
+        <li>_parent - Abre el documento en el marco padre.</li>
+        <li>_top - Abre el documento en el cuerpo entero de la ventana.</li>
+    </ul>
+    <p>Ejemplo:</p>
+    <div class="ejemplo">
+        <p>&lt;a href="https://www.edib.com/" target="_blank"&gt;Visita Edib&lt;/a&gt;</p>
+    </div>
+=======
         
+
 
 
 </div>
