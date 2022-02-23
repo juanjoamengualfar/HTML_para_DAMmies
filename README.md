@@ -14,7 +14,7 @@ A continuación se incluyen las contribuciones que ha realizado cada uno de los 
 ## Andreu Bonet
 * Añadido el fichero *parrafos.html*.
 ---
-## Carolina Pérez
+## Carolina Pérez de Lis
 * Añadido el fichero *enlaces.html*.
 ---
 ## Juanjo Amengual
