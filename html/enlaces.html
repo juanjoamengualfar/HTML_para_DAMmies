@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+    <style>
+
+        .img-cursor {
+            position: relative;
+            top: 17px;
+        }
+
+        .nota {
+            background-color: rgb(176, 227, 243);
+            border-left:3px solid darkblue;
+            padding: 5px;
+            width:max-content;
+        }
+		
+		.ejemplo {
+            box-sizing: border-box;
+            border: 8px solid rgb(216, 215, 215);
+            border-radius: 5px;
+            padding: 5px;
+            width: max-content;
+        }
+
+    </style>
+
+</head>
+
+<body>
+<div>
+    <h1>Enlaces en HTML</h1>
+    <h2>Hipervínculos</h2>
+    <p>Los enlaces en HTML son hipervínculos. Al clicar en un enlace, este te lleva a otro documento.</p>
+    <div><p>Al mover el cursor sobre el enlace este se convierte en una pequeña mano. <img class="img-cursor" src="cursor.png" alt="cursor" width="50px" height="50px"/></p></div>
+    <div class="nota"><p><b>Nota:</b> Un enlace no tiene por qué ser texto, puede ser una imagen o cualquier otro elemento de HTML!</p></div>
+</div>
+
+<div>
+    <h2>Sintaxis</h2>
+    <p>En HTML la etiqueta para un hipervínculo se define con &lt;a&gt;. Tiene la siguiente sintaxis:</p>
+    <div class="ejemplo">
+        <p>&lt;a href="url"&gt;texto del hipervínculo&lt;/a&gt;</p>
+    </div>
+    <p>La parte más importante del elemento &lt;a&gt; es el atributo href pues indica el destino del hipervínculo. </p>
+    <p>El <em>texto del hipervínculo</em> es la parte que será visible para el lector.</p>
+    <p>Clicar en el texto mandará al lector a la dirección URL especificada. El siguiente ejemplo es un hipervínculo a la direccion edib.com</p>
+    <div class="ejemplo">
+        <p>&lt;a href="https://www.edib.com/"&gt;Visita Edib&lt;/a&gt;</p>
+    </div>
+    <p>Por defecto, los hipervínculos apareceran de esta forma en todos los navegadores:</p>
+    <ul>
+        <li>Un hipervínculo no visitado estará subrayado y de color azul.</li>
+        <li>Un hipervínculo visitado estará subrayado y de color morado.</li>
+        <li>Un hipervínculo activo estará subrayado y de color rojo.</li>
+    </ul>
+    <div class="nota">
+        <p><b>Consejo:</b> Los hipervínculos pueden tener estilos de CSS para tener otra apariencia.</p>
+    </div>
+</div>
+
+</body>
+
+</html>
