@@ -1,7 +1,7 @@
 HTML para DAMmies
 Tutorial básico para Diseño de Aplicaciones Multiplataforma
 
-Este proyecto forma parte de la Tarea 5: Trabajando con ramas en un repositorio compartido. En esta tarea hemos decidido crear un tutorial breve sobre la información más básica del lenguaje de marcas HTML, utilizando el propio formato para dar un ejemplo gráfico.
+#Este proyecto forma parte de la Tarea 5: Trabajando con ramas en un repositorio compartido. En esta tarea hemos decidido crear un tutorial breve sobre la información más básica del lenguaje de marcas HTML, utilizando el propio formato para dar un ejemplo gráfico.
 =======
 ## HTML para DAMmies
 ### Tutorial básico para Diseño de Aplicaciones Multiplataforma
