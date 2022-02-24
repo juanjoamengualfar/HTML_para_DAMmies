@@ -13,6 +13,14 @@
             padding: 5px;
             width:max-content;
         }
+		
+		.ejemplo {
+            box-sizing: border-box;
+            border: 8px solid rgb(216, 215, 215);
+            border-radius: 5px;
+            padding: 5px;
+            width: max-content;
+        }
 
     </style>
 
@@ -25,9 +33,87 @@
     <p>Los enlaces en HTML son hipervínculos. Al clicar en un enlace, este te lleva a otro documento.</p>
     <div><p>Al mover el cursor sobre el enlace este se convierte en una pequeña mano. <img class="img-cursor" src="cursor.png" alt="cursor" width="50px" height="50px"/></p></div>
     <div class="nota"><p><b>Nota:</b> Un enlace no tiene por qué ser texto, puede ser una imagen o cualquier otro elemento de HTML!</p></div>
+
+</div>
+
+<div>
+    <h2>Sintaxis</h2>
+    <p>En HTML la etiqueta para un hipervínculo se define con &lt;a&gt;. Tiene la siguiente sintaxis:</p>
+    <div class="ejemplo">
+        <p>&lt;a href="url"&gt;texto del hipervínculo&lt;/a&gt;</p>
+    </div>
+    <p>La parte más importante del elemento &lt;a&gt; es el atributo href pues indica el destino del hipervínculo. </p>
+    <p>El <em>texto del hipervínculo</em> es la parte que será visible para el lector.</p>
+    <p>Clicar en el texto mandará al lector a la dirección URL especificada. El siguiente ejemplo es un hipervínculo a la direccion edib.com</p>
+    <div class="ejemplo">
+        <p>&lt;a href="https://www.edib.com/"&gt;Visita Edib&lt;/a&gt;</p>
+    </div>
+    <p>Por defecto, los hipervínculos apareceran de esta forma en todos los navegadores:</p>
+    <ul>
+        <li>Un hipervínculo no visitado estará subrayado y de color azul.</li>
+        <li>Un hipervínculo visitado estará subrayado y de color morado.</li>
+        <li>Un hipervínculo activo estará subrayado y de color rojo.</li>
+    </ul>
+    <div class="nota">
+        <p><b>Consejo:</b> Los hipervínculos pueden tener estilos de CSS para tener otra apariencia.</p>
+    </div>
+</div>
+
+<div>
+    <h2>El atributo <em>target</em></h2>
+    <p>Por defecto, la página a la que se direcciona se abrirá en la misma ventana/pestaña que se esté utilizando. Para cambiar esto se debe especificar otro <em>target</em> para el vínculo.</p>
+    <p>Puede tener uno de estos diferentes valores:</p>
+    <ul>
+        <li>_self - Por defecto. Abre el documento en la misma ventana o pestaña.</li>
+        <li>_blank - Abre el documento en otra ventana o pestaña.</li>
+        <li>_parent - Abre el documento en el marco padre.</li>
+        <li>_top - Abre el documento en el cuerpo entero de la ventana.</li>
+    </ul>
+    <p>Ejemplo:</p>
+    <div class="ejemplo">
+        <p>&lt;a href="https://www.edib.com/" target="_blank"&gt;Visita Edib&lt;/a&gt;</p>
+    </div>
         
+</div>
 
+<div>
+    <h2>URL Absolutas vs URL Relativas</h2>
+    <p>Los ejemplos anteriores usan una URL absoluta (una dirección web completa) en el atributo href.</p>
+    <p>Un vínculo local (un vínculo a una página dentro del mismo sitio web) se especifica con una URL relativa (sin la parte "https://wwww."):</p>
+    <div class="ejemplo">
+        <p>URL Absoluta:</p>
+        <p>&lt;a href="https://www.edib.com/"&gt;Visita Edib&lt;/a&gt;</p>
+        <br>
+        <p>URL Relativa:</p>
+        <p>&lt;a href="parrafos.html"&gt;Sección de párrafos&lt;/a&gt;</p>
+    </div>
+</div>
 
+<div>
+    <h2>Uso de imágenes como vínculos</h2>
+    <p>Para usar una imagen como vínculo, simplemente escribe la etiqueta &lt;img&gt; dentro de la etiqueta &lt;a&gt;:</p>
+    <div class="ejemplo">
+        <p>&lt;a href="ejemplo.html"&gt;</p>
+        <p>&lt;img src="smiley.gif" alt="Tutorial de HTML" style="width:42px;height:42px;"&gt;</p>
+        <p>&lt;/a&gt;</p>
+    </div>
+</div>
+
+<div>
+    <h2>Vínculo a una dirección email</h2>
+    <p>Dentro del atributo href se puede utilizar <em>mailto:</em> para crear un vínculo que abre el programa de email del usuario (y permite mandar un nuevo email):</p>
+    <div class="ejemplo">
+        <p>&lt;a href="mailto:alguien@ejemplo.com"&gt;Enviar email&lt;/a&gt;</p>
+    </div>
+</div>
+
+<div>
+    <h2>Botones como vínculos</h2>
+    <p>Para utilizar botones de HTML como vínculo tenemos que añadir algo de código JavaScript.</p>
+    <p>JavaScript nos permite especificar qué ocurre con ciertos eventos, como por ejemplo al clicar un botón:</p>
+    <div class="ejemplo">
+        <p>&lt;button onclick="document.location='default.asp'"&gt;Tutorial HTML&lt;&button&gt;</p>
+    </div>
 </div>
 
 </body>
