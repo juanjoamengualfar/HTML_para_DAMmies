@@ -43,7 +43,7 @@ Ricardo Ramírez
 * Añadido el fichero *enlaces.html*.
 ---
 ## Juanjo Amengual
-* Añadido el fichero *atributos.html*.
+* Añadido el fichero *atributos.html*
 ---
 ## Ricardo Ramírez
 * Añadido el fichero *headings.html*.
