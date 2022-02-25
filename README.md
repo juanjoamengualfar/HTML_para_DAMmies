@@ -8,6 +8,30 @@ Para empezar el proyecto, nos hemos dividido el proyecto en distintas secciones 
 
 A continuación se incluyen las contribuciones que ha realizado cada uno de los integrantes del grupo.
 
+
+=======
+Adrián Martín
+
+    Añadido el fichero elementos.html.
+
+Andreu Bonet
+
+    Añadido el fichero parrafos.html.
+
+Carolina Pérez de Lis
+
+    Añadido el fichero enlaces.html.
+
+Juanjo Amengual
+
+    Añadido el fichero atributos.html.
+
+Ricardo Ramírez
+
+    Añadido el fichero headings.html.
+    Estructuración básica de README.md.
+
+
 ## Adrián Martín
 * Añadido el fichero
 ---
