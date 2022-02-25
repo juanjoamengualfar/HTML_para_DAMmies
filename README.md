@@ -1,7 +1,3 @@
-HTML para DAMmies
-Tutorial básico para Diseño de Aplicaciones Multiplataforma
-
-=======
 ## HTML para DAMmies
 ### Tutorial básico para Diseño de Aplicaciones Multiplataforma
 
@@ -12,6 +8,8 @@ Para empezar el proyecto, nos hemos dividido el proyecto en distintas secciones 
 
 A continuación se incluyen las contribuciones que ha realizado cada uno de los integrantes del grupo.
 
+
+=======
 Adrián Martín
 
     Añadido el fichero elementos.html.
@@ -33,6 +31,7 @@ Ricardo Ramírez
     Añadido el fichero headings.html.
     Estructuración básica de README.md.
 
+
 ## Adrián Martín
 * Añadido el fichero
 ---
@@ -43,9 +42,14 @@ Ricardo Ramírez
 * Añadido el fichero *enlaces.html*.
 ---
 ## Juanjo Amengual
-* Añadido el fichero *atributos.html*
+* Añadido el fichero *atributos.html*.
 ---
 ## Ricardo Ramírez
 * Añadido el fichero *headings.html*.
 * Estructuración básica de *README.md*.
-------
+* Edición de *parrafos.html*.
+* Añadido el fichero *estilos.css*.
+* Reorganización de *README.md*
+* Edición de *headings.html*
+* Edición de *enlaces.html*.
+* Reorganización de ficheros y adición de la imagen *icono.png*.
