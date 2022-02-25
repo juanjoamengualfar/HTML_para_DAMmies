@@ -14,7 +14,7 @@ A continuación se incluyen las contribuciones que ha realizado cada uno de los 
 
 Adrián Martín
 
-    Añadido el fichero
+    Añadido el fichero elementos.html.
 
 Andreu Bonet
 
