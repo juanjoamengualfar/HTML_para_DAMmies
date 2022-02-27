@@ -6,11 +6,11 @@ Este proyecto forma parte de la Tarea 5: Trabajando con ramas en un repositorio 
 
 Para empezar el proyecto, nos hemos dividido el proyecto en distintas secciones que ha trabajado cada integrante de forma autónoma. Posteriormente, al subirse la parte correspondiente, los demás integrantes la revisan y aportan opiniones y/o modificaciones si es necesario. Todo esto se logra utilizando las instrucciones de Git utilizadas en las anteriores tareas.
 
-
+---
 Este es el link del tutorial: https://youtu.be/EGEISJnphug
 
 En el video se pueden apreciar con mas detalle los pasos y seguimiento para la creación de este proyecto.
-
+---
 
 A continuación se incluyen las contribuciones que ha realizado cada uno de los integrantes del grupo.
 
