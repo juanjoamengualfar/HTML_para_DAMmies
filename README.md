@@ -10,8 +10,8 @@ Para empezar el proyecto, nos hemos dividido el proyecto en distintas secciones 
 Este es el link del tutorial: https://youtu.be/EGEISJnphug
 
 En el video se pueden apreciar con mas detalle los pasos y seguimiento para la creación de este proyecto.
----
 
+---
 A continuación se incluyen las contribuciones que ha realizado cada uno de los integrantes del grupo.
 
 
